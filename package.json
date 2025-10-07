@@ -1,0 +1,26 @@
+{
+  "name": "jwt-auth-express",
+  "version": "1.0.0",
+  "description": "JWT Authentication System with Express.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["jwt", "authentication", "express", "nodejs"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
